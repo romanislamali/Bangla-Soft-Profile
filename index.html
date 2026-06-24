@@ -1,124 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bangla-Soft | Software Company in Dhaka</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangla-Soft | Next-Gen Software Solutions</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Bangla-Soft is a premier software development agency in Dhaka, Bangladesh. We build scalable web apps, mobile solutions, and enterprise ERP systems.">
+    <meta name="keywords" content="Software Development, Dhaka, Bangladesh, Web Development, Mobile Apps, ERP Solutions, IT Consultancy">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="font-sans text-gray-800">
+<body>
 
-  <!-- Header -->
-  <header class="bg-white shadow-md fixed w-full top-0 z-50">
-    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
-      <h1 class="text-2xl font-bold text-blue-600">Bangla-Soft</h1>
-      <nav class="hidden md:flex space-x-6">
-        <a href="#home" class="hover:text-blue-600">Home</a>
-        <a href="#about" class="hover:text-blue-600">About</a>
-        <a href="#services" class="hover:text-blue-600">Services</a>
-        <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
-        <a href="#contact" class="hover:text-blue-600">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Navigation -->
+    <nav class="glass">
+        <div class="logo">BANGLA-SOFT</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="btn-primary" style="padding: 10px 24px;">Let's Talk</a>
+    </nav>
 
-  <!-- Hero Section -->
-  <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center px-6">
-    <h2 class="text-4xl md:text-6xl font-bold mb-4">We Build Modern Software Solutions</h2>
-    <p class="text-lg md:text-xl mb-6 max-w-2xl">Bangla-Soft is a leading software development company in Dhaka, Bangladesh. We specialize in building scalable, reliable, and innovative digital solutions for businesses worldwide.</p>
-    <a href="#contact" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition">Get in Touch</a>
-  </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="hero_software_agency_1782313991054.png" alt="Digital Mesh" class="hero-bg-img">
+        <h1 class="reveal">Architecting Digital Futures.</span></h1>
+        <p class="reveal" style="animation-delay: 0.2s;">We transform complex business challenges into elegant, scalable software solutions. Based in Dhaka, serving the globe.</p>
+        <div class="reveal" style="animation-delay: 0.4s; display: flex; gap: 20px;">
+            <a href="#portfolio" class="btn-primary">View Our Work</a>
+            <a href="#services" class="glass" style="padding: 16px 40px; text-decoration: none; color: white; border-radius: 50px; font-weight: 600;">Explore Services</a>
+        </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="py-16 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h3 class="text-3xl font-bold mb-4">About Us</h3>
-      <p class="text-lg text-gray-600 mb-6">Founded in Dhaka, Bangladesh, Bangla-Soft helps businesses transform digitally through custom software development, web & mobile applications, ERP solutions, and IT consultancy. Our mission is to empower companies with cutting-edge technology to achieve their goals.</p>
-    </div>
-  </section>
+    <!-- Services Section -->
+    <section id="services" class="max-container">
+        <div style="text-align: center; margin-bottom: 60px;">
+            <p style="color: var(--primary); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px;">Expertise</p>
+            <h2 style="font-size: 3rem; font-weight: 700;">Services We Excel At</h2>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card glass reveal">
+                <div class="service-icon"><i data-lucide="code-2"></i></div>
+                <h3>Custom Software</h3>
+                <p style="color: var(--text-muted);">Tailored end-to-end solutions designed to scale with your business growth and technical requirements.</p>
+            </div>
+            <div class="service-card glass reveal" style="animation-delay: 0.1s;">
+                <div class="service-icon"><i data-lucide="layout"></i></div>
+                <h3>Web Engineering</h3>
+                <p style="color: var(--text-muted);">Performant, SEO-optimized web applications built with modern frameworks and pixel-perfect design.</p>
+            </div>
+            <div class="service-card glass reveal" style="animation-delay: 0.2s;">
+                <div class="service-icon"><i data-lucide="smartphone"></i></div>
+                <h3>Mobile Apps</h3>
+                <p style="color: var(--text-muted);">Intuitive iOS and Android experiences that keep users engaged and deliver seamless performance.</p>
+            </div>
+            <div class="service-card glass reveal" style="animation-delay: 0.3s;">
+                <div class="service-icon"><i data-lucide="database"></i></div>
+                <h3>ERP Solutions</h3>
+                <p style="color: var(--text-muted);">Comprehensive enterprise resource planning systems to streamline operations and boost efficiency.</p>
+            </div>
+            <div class="service-card glass reveal" style="animation-delay: 0.4s;">
+                <div class="service-icon"><i data-lucide="shopping-cart"></i></div>
+                <h3>E-Commerce</h3>
+                <p style="color: var(--text-muted);">High-conversion online stores with secure payment gateways and robust inventory management.</p>
+            </div>
+            <div class="service-card glass reveal" style="animation-delay: 0.5s;">
+                <div class="service-icon"><i data-lucide="shield-check"></i></div>
+                <h3>IT Strategy</h3>
+                <p style="color: var(--text-muted);">Strategic consulting to align your technology roadmap with your long-term business objectives.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="py-16">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h3 class="text-3xl font-bold mb-10">Our Services</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h4 class="text-xl font-semibold mb-3">Custom Software</h4>
-          <p class="text-gray-600">Tailored software solutions designed to meet your business requirements with scalability and efficiency.</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="max-container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 60px;">
+            <div>
+                <p style="color: var(--primary); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px;">Our Portfolio</p>
+                <h2 style="font-size: 3rem; font-weight: 700;">Selected Works</h2>
+            </div>
+            <a href="#" class="nav-links" style="color: var(--primary); font-weight: 600;">View All Projects <i data-lucide="arrow-right" style="width: 18px; vertical-align: middle;"></i></a>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h4 class="text-xl font-semibold mb-3">Web Development</h4>
-          <p class="text-gray-600">Modern, responsive, and user-friendly websites that represent your brand and engage your audience.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h4 class="text-xl font-semibold mb-3">Mobile Applications</h4>
-          <p class="text-gray-600">Cross-platform mobile apps built with the latest technologies for Android and iOS users.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h4 class="text-xl font-semibold mb-3">ERP Solutions</h4>
-          <p class="text-gray-600">Streamline your business operations with customized ERP software for finance, HR, and inventory.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h4 class="text-xl font-semibold mb-3">E-commerce Platforms</h4>
-          <p class="text-gray-600">Powerful and secure online stores to grow your business and reach customers worldwide.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h4 class="text-xl font-semibold mb-3">IT Consultancy</h4>
-          <p class="text-gray-600">Expert guidance to help your business make the right technological decisions and strategies.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="py-16 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h3 class="text-3xl font-bold mb-10">Our Work</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-lg shadow overflow-hidden">
-          <img src="https://ebz-static.s3.ap-south-1.amazonaws.com/easebuzz-static/upi-credit-cards-v1.png" alt="Project 1" class="w-full">
-          <div class="p-4">
-            <h4 class="font-semibold">E-commerce Website</h4>
-            <p class="text-gray-600 text-sm">A scalable online store with secure payment integration.</p>
-          </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item reveal">
+                <img src="portfolio_ecommerce_1782314005369.png" alt="E-commerce App">
+                <div class="portfolio-overlay">
+                    <p style="color: var(--primary); font-weight: 600; font-size: 0.8rem; margin-bottom: 8px;">UI/UX • DEVELOPMENT</p>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Urban Style E-Commerce</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Modern shopping experience for a global fashion brand.</p>
+                </div>
+            </div>
+            <div class="portfolio-item reveal" style="animation-delay: 0.2s;">
+                <img src="portfolio_erp_1782314020270.png" alt="ERP Dashboard">
+                <div class="portfolio-overlay">
+                    <p style="color: var(--primary); font-weight: 600; font-size: 0.8rem; margin-bottom: 8px;">ENTERPRISE SOLUTIONS</p>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Quantum ERP</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Streamlining operations for a multi-national logistics firm.</p>
+                </div>
+            </div>
+            <div class="portfolio-item reveal" style="animation-delay: 0.4s;">
+                <img src="portfolio_banking_1782314033556.png" alt="Banking App">
+                <div class="portfolio-overlay">
+                    <p style="color: var(--primary); font-weight: 600; font-size: 0.8rem; margin-bottom: 8px;">FINTECH</p>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Aurora NeoBank</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">The future of digital mobile banking in Bangladesh.</p>
+                </div>
+            </div>
         </div>
-        <div class="bg-white rounded-lg shadow overflow-hidden">
-          <img src="https://www.brightpearl.com/wp-content/uploads/2021/05/erp-image.png" alt="Project 2" class="w-full">
-          <div class="p-4">
-            <h4 class="font-semibold">ERP Software</h4>
-            <p class="text-gray-600 text-sm">Custom ERP system for managing HR, finance, and inventory.</p>
-          </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="max-container" style="background: var(--card-dark); border-radius: 40px; margin: 50px auto;">
+        <div class="contact-container">
+            <div>
+                <h2 style="font-size: 2.5rem; margin-bottom: 24px;">Why Partner With <span style="color: var(--primary);">Bangla-Soft?</span></h2>
+                <div style="margin-bottom: 30px;">
+                    <div style="display: flex; gap: 20px; margin-bottom: 20px;">
+                        <div style="color: var(--primary);"><i data-lucide="check-circle-2"></i></div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Agile Methodology</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Rapid delivery through iterative development and constant feedback loops.</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 20px; margin-bottom: 20px;">
+                        <div style="color: var(--primary);"><i data-lucide="users"></i></div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Dedicated Teams</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Expert engineers and designers assigned exclusively to your project.</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 20px;">
+                        <div style="color: var(--primary);"><i data-lucide="zap"></i></div>
+                        <div>
+                            <h4 style="margin-bottom: 4px;">Modern Tech Stack</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">We use latest technologies like Node.js, Python, React, and Flutter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="glass" style="padding: 40px; text-align: center;">
+                <h2 style="font-size: 4rem; margin-bottom: 10px;">150+</h2>
+                <p style="color: var(--text-muted); margin-bottom: 30px;">Projects Delivered Successfully</p>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="glass" style="padding: 20px;">
+                        <h3 style="color: var(--secondary);">98%</h3>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Client Retention</p>
+                    </div>
+                    <div class="glass" style="padding: 20px;">
+                        <h3 style="color: var(--secondary);">24/7</h3>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Global Support</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="bg-white rounded-lg shadow overflow-hidden">
-          <img src="https://www.finacus.co.in/wp-content/uploads/2020/12/fintech_mobile_banking_unified_endpoint_management_uem_thinkstock_528729752_3x2-100739848-large.webp" alt="Project 3" class="w-full">
-          <div class="p-4">
-            <h4 class="font-semibold">Mobile Banking App</h4>
-            <p class="text-gray-600 text-sm">A secure and easy-to-use mobile banking solution.</p>
-          </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-container">
+        <div class="contact-container">
+            <div>
+                <h2 style="font-size: 3rem; margin-bottom: 20px;">Ready to Start Your <br>Project?</h2>
+                <p style="color: var(--text-muted); margin-bottom: 40px; font-size: 1.1rem;">Drop us a line and one of our solution architects will reach out within 24 hours.</p>
+                
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div style="display: flex; align-items: center; gap: 15px;">
+                        <div class="glass" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border-radius: 50%; color: var(--primary);"><i data-lucide="mail"></i></div>
+                        <span>hello@banglasoft.com</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 15px;">
+                        <div class="glass" style="width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border-radius: 50%; color: var(--primary);"><i data-lucide="map-pin"></i></div>
+                        <span>Gulshan, Dhaka, Bangladesh</span>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="glass" style="padding: 40px;">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+            </form>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-16">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
-      <p class="text-lg text-gray-600 mb-8">Get in touch with us for your next software project. We are here to help you build the future of your business.</p>
-      <form class="grid gap-4 text-left">
-        <input type="text" placeholder="Your Name" class="border p-3 rounded w-full" required>
-        <input type="email" placeholder="Your Email" class="border p-3 rounded w-full" required>
-        <textarea placeholder="Your Message" class="border p-3 rounded w-full h-32" required></textarea>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <!-- Footer -->
+    <footer style="padding: 60px 20px; border-top: 1px solid var(--glass-border); text-align: center;">
+        <div class="logo" style="margin-bottom: 20px; font-size: 2rem;">BANGLA-SOFT</div>
+        <p style="color: var(--text-muted); margin-bottom: 30px;">Empowering businesses with top-tier digital engineering.</p>
+        <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 40px;">
+            <a href="#" class="glass" style="padding: 10px; border-radius: 50%;"><i data-lucide="facebook" style="width: 20px;"></i></a>
+            <a href="#" class="glass" style="padding: 10px; border-radius: 50%;"><i data-lucide="twitter" style="width: 20px;"></i></a>
+            <a href="#" class="glass" style="padding: 10px; border-radius: 50%;"><i data-lucide="linkedin" style="width: 20px;"></i></a>
+        </div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">&copy; 2026 Bangla-Soft. All rights reserved.</p>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-6 text-center">
-    <p>&copy; 2025 Bangla-Soft | Dhaka, Bangladesh. All rights reserved.</p>
-  </footer>
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
 
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => {
+            el.style.opacity = '0'; // Set initial state for JS-based reveal
+            observer.observe(el);
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
-
